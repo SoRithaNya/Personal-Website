@@ -1,8 +1,8 @@
 #welcome {
     postion: absolute;
-    height: 100%;
+    height: 60%;
     width: 100%;
-    background:linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background:linear-gradient(#FFCCCC 50%, #EF98AA 50%);
     opacity: 0.83;
     overflow: hidden;
     color:black;
@@ -16,7 +16,7 @@ font-size:300px;
 
 #img1{
     
- border-radius:30px;
+ border-radius:1px;
     
 }
 
@@ -33,7 +33,7 @@ font-size:300px;
 
 .lists{
  
- color:black;
+ color:darkslateblue;
  float:left;
  padding-top:5px;
  padding-bottom: 5px;
@@ -41,7 +41,23 @@ font-size:300px;
  padding-left: 10px;    
 }
 
-.lists:hover;{
+.lists:hover{
     
     background-color: white;
 }
+
+.style{
+    
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+#bio{
+    
+    padding:50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+   
